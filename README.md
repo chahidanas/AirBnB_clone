@@ -14,6 +14,7 @@ To start the command-line interpreter, navigate to the root directory of the pro
 
 ```bash
 $ ./console.py
+```
 Once the interpreter is running, you will be presented with a prompt (hbnb) where you can enter commands.
 
 How to Use the Interpreter
@@ -25,18 +26,18 @@ Starting the Interpreter:
 
 To start the interpreter, simply execute the following command:
 
-bash
-Copy code
+```
 $ ./console.py
+```
 Once started, you will see the prompt (hbnb) where you can enter commands.
 
 Get Help:
 
 To view a list of available commands, type help and press enter:
 
-bash
-Copy code
+```
 (hbnb) help
+```
 This will display all available commands.
 
 Exit the Interpreter:
@@ -48,28 +49,28 @@ Copy code
 (hbnb) quit
 Or, in non-interactive mode, you can use:
 
-bash
-Copy code
+```
 $ echo "quit" | ./console.py
+```
 Installation
 To run this project, you will need Python 3.8.5 (or higher) installed along with the necessary dependencies.
 
 Clone the repository:
-bash
-Copy code
+```
 $ git clone https://github.com/your-username/hbnb.git
+```
 Navigate into the project directory:
-bash
-Copy code
+```
 $ cd hbnb
+```
 Install required dependencies:
-bash
-Copy code
+```
 $ pip3 install -r requirements.txt
+```
 Run the command-line interpreter:
-bash
-Copy code
+```
 $ ./console.py
+```
 Features
 Command-Line Interface (CLI): Allows the user to interact with the platform in an interactive or non-interactive mode.
 Database: Stores data for users, reservations, and other related entities.
@@ -77,22 +78,21 @@ Web Application: A dynamic website built on the foundation of the backend API.
 RESTful API: A REST API to enable interaction with external systems or for mobile applications.
 Usage Examples
 Create a new user:
-bash
-Copy code
+```
 (hbnb) create User
+```
 Show all users:
-bash
-Copy code
+```
 (hbnb) all User
+```
 Delete a user:
-bash
-Copy code
+```
 (hbnb) destroy User <user_id>
+```
 Update a user:
-bash
-Copy code
-(hbnb) update User <user_id> name "John Doe"
+```
+(hbnb) update User <user_id> name "User name"
+```
 Contributors
 - Anas Chahid
 - Hiba Cherifi
-```
